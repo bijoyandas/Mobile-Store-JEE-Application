@@ -1,0 +1,340 @@
+/* CSS Document */
+/* CSS Document */
+body {
+font-family : sans serif;
+}
+#head {
+font-family:Verdana;
+font-size:120px;
+text-align:center;
+color:#000000;
+}
+#head1 {
+font-family:Verdana;
+font-size:120px;
+text-align:center;
+color:#0099FF;
+}
+#headtable {
+	padding-top:100px;
+	position : absolute;
+	left: 440px;
+	top: -47px;
+}
+#headtable a:hover #head{
+color:#0099FF;
+-webkit-transition: 0.7s ease-in-out;
+}
+#headtable a:hover #head1{
+color:black;
+-webkit-transition: 0.7s ease-in-out;
+}
+#headtable a {
+text-decoration:none;
+}
+#header {
+height : 400px;
+width : 100%;
+}
+#tagline {
+font-family:verdana;
+font-size:18px;
+}
+#taglist {
+padding-top:60px;
+padding-right:50px;
+padding-bottom:100px;
+}
+#taglist td {
+padding:13px;
+font-family:verdana;
+font-size:16px;
+}
+#navbar {
+width:100%;
+height:45px;
+background-color:#201313;
+}
+#menu {
+	height:45px;
+	width:100%;
+	background-color:#201313;
+	margin-top:200px;
+}
+#menu ul{
+	padding : 0px;
+	margin : 0px;
+	list-style-type : none;
+	position : absolute;
+}
+#menu ul li {
+float : left;
+display : block;
+width : 7em;
+background-color:#000000 ;
+text-align : center;
+left : 90px;
+}
+#menu ul li a {
+color : white;
+display : block;
+padding-top : 13px;
+padding-bottom : 13px;
+text-decoration : none;
+font-family:verdana;
+font-size:16px;
+}
+#menu ul li a:hover {
+background-color:#0099FF;
+color:#FFFFFF;
+-webkit-transition: 0.4s ease-in-out;}
+#menu ul li ul li{
+text-align : center;
+}
+#menu ul li ul li a{
+color : white;
+display : block;
+padding-top : 10.5px;
+padding-bottom : 10.5px;
+text-decoration : none;
+}
+#menu ul ul{
+	display : none;
+}
+#menu ul li:hover ul {
+	display : block;
+	position : relative;
+	z-index : 2;
+}
+
+	#tfnewsearch{
+		float:right;
+		padding:4px;
+	}
+	.tftextinput{
+		margin: 0;
+		padding: 10px 15px ;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		border:none;
+	}
+	.tfbutton {
+		margin: 0;
+		padding: 9.5px 15px;
+		font-family: verdana;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3; border-right:0px;
+		background: #0099ff;
+	}
+	.tfbutton:hover {
+		text-decoration: none;
+		background: white;
+		color:#201313;
+		-webkit-transition: 0.4s ease-in-out;
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton::-moz-focus-inner {
+	  border: 0;
+	}
+	.tfclear{
+		clear:both;
+	}
+#filter-wrapper {
+	width:1333px;
+	height:60px;
+	background-color:#F5EBEB;
+	font-family:verdana;
+	font-size:18px;
+	position:absolute;
+	top: 512px;
+}
+#filter-wrapper select {
+width:200px;
+font-family:verdana;
+font-size:18px;
+margin:18px;
+left:20px;
+}
+#filter-wrapper select option{
+font-family:verdana;
+font-size:18px;
+}
+
+#content-wrapper {
+width:100%;
+height:900px;
+border:none;
+
+}
+	.filt-button {
+		margin-top: 12px;
+		padding: 9.5px 15px;
+		font-family: verdana;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3;
+		background: #0099ff;
+		position:absolute;
+		width:100px;
+	}
+	.filt-button:hover {
+		text-decoration: none;
+		background: white;
+		color:#201313;
+		-webkit-transition: 0.4s ease-in-out;
+	}
+	/* Fixes submit button height problem in Firefox */
+	.filt-button::-moz-focus-inner {
+	  border: 0;
+	}
+#content-wrapper table {
+margin-top:60px;
+padding:40px;
+margin-left:20px;
+margin-right:20px;
+}
+#content-wrapper table tr td{
+width:400px;
+height:400px;
+}
+#footer {
+width:100%;
+height:100px;
+background-color:#201313;
+}
+#footer table {
+width:100%;
+}
+#footer table tr td {
+height:110px;
+color:white;
+font-family:verdana;
+font-size:14px;
+text-align:center;
+}
+a#facebook, a#twitter, a#gplus {
+text-decoration:none;
+color:white;
+font-family:verdana;
+font-size:18px;
+}
+a#facebook:hover{
+color:#0040FF;
+}
+a#twitter:hover{
+color:#00CCFF;
+}
+a#gplus:hover{
+color:#FF3300;
+}
+.hehe{
+	position:absolute;
+	left: 2px;
+	top: 253px;
+	width: 1345px;
+	font-size:20px;
+	height: 46px;
+	background-color: #400000;
+}
+.main{
+	position:absolute;
+	left: 28px;
+	top: 328px;
+	width: 1302px;
+	height: 1406px;
+	border-style:dotted;
+	border-color:#999999;
+}
+.hello{
+	font-size:26px;
+}
+#hello1
+{
+	border-style:dotted;
+	border-color:#999999;
+}
+.last{
+	position:absolute;
+	left:2px;
+	top: 966px;
+	height: 61px;
+	width: 1345px;
+	background-color: #400000;
+}
+.yo
+{
+	position:absolute;
+	left: 30px;
+	top: 1176px;
+	width: 1238px;
+	height: 176px;
+	font-size:24px;
+}
+.fuzzy{
+	position:absolute;
+	left: 620px;
+	top: 1807px;
+	width: 212px;
+	height: 60px;
+	background-color:#00CCFF;
+	font-size:24px;
+	font-family:"Cooper Black";
+	border:solid;
+}
+.fuzzy1{
+	position:absolute;
+	background-color:#00CCFF;
+	font-size:24px;
+	font-family:"Cooper Black";
+	border:solid;
+	left: 472px;
+	top: 77px;
+	width: 308px;
+	height: 47px;
+}
+#fussy
+{
+	padding-bottom:350px;
+}
+.insider
+{
+	position:absolute;
+	left: 36px;
+	top: 1114px;
+	width: 412px;
+	height: 605px;
+}
+.finish
+{
+	position:relative;
+	left: 1px;
+	margin-top:20px;
+	width: 100%;
+	height: 511px;
+}
+.final
+{
+	position:relative;
+	width: 100%;
+	height: 140px;
+	text-align:center;
+}
+.fuzzy1{
+	position:absolute;
+	background-color:#00CCFF;
+	font-size:24px;
+	font-family:"Cooper Black";
+	border:solid;
+	cursor:pointer;
+	margin-top:0px;
+	left:530px;
+}

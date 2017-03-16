@@ -1,0 +1,292 @@
+/* CSS Document */
+body {
+font-family : sans serif;
+}
+#head {
+font-family:Verdana;
+font-size:120px;
+text-align:center;
+color:#000000;
+}
+#head1 {
+font-family:Verdana;
+font-size:120px;
+text-align:center;
+color:#0099FF;
+}
+#headtable {
+	padding-top:100px;
+	position : absolute;
+	left: 482px;
+	top: -47px;
+}
+#headtable a:hover #head{
+color:#0099FF;
+-webkit-transition: 0.7s ease-in-out;
+}
+#headtable a:hover #head1{
+color:black;
+-webkit-transition: 0.7s ease-in-out;
+}
+#headtable a {
+text-decoration:none;
+}
+#header {
+height : 400px;
+width : 100%;
+}
+#tagline {
+font-family:verdana;
+font-size:18px;
+}
+#taglist {
+padding-top:60px;
+padding-right:50px;
+padding-bottom:100px;
+}
+#taglist td {
+padding:13px;
+font-family:verdana;
+font-size:16px;
+}
+
+#filter-wrapper {
+	width:1333px;
+	height:60px;
+	background-color:#F5EBEB;
+	font-family:verdana;
+	font-size:18px;
+	position:absolute;
+	top: 512px;
+}
+#filter-wrapper select {
+width:200px;
+font-family:verdana;
+font-size:18px;
+margin:18px;
+left:20px;
+}
+#filter-wrapper select option{
+font-family:verdana;
+font-size:18px;
+}
+
+#content-wrapper {
+width:100%;
+height:900px;
+border:none;
+
+}
+	.filt-button {
+		margin-top: 12px;
+		padding: 9.5px 15px;
+		font-family: verdana;
+		font-size:14px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3;
+		background: #0099ff;
+		position:absolute;
+		width:100px;
+	}
+	.filt-button:hover {
+		text-decoration: none;
+		background: white;
+		color:#201313;
+		-webkit-transition: 0.4s ease-in-out;
+	}
+	/* Fixes submit button height problem in Firefox */
+	.filt-button::-moz-focus-inner {
+	  border: 0;
+	}
+#content-wrapper table {
+margin-top:60px;
+padding:40px;
+margin-left:20px;
+margin-right:20px;
+}
+#content-wrapper table tr td{
+width:400px;
+height:400px;
+}
+#footer {
+width:100%;
+height:120px;
+background-color:#201313;
+}
+#footer table {
+width:100%;
+}
+#footer table tr td {
+height:110px;
+color:white;
+font-family:verdana;
+font-size:14px;
+text-align:center;
+}
+a#facebook, a#twitter, a#gplus {
+text-decoration:none;
+color:white;
+font-family:verdana;
+font-size:18px;
+}
+a#facebook:hover{
+color:#0040FF;
+}
+a#twitter:hover{
+color:#00CCFF;
+}
+a#gplus:hover{
+color:#FF3300;
+}
+.hehe{
+	position:absolute;
+	left: 14px;
+	top: 253px;
+	width: 1320px;
+	font-size:20px;
+	height: 46px;
+	background-color: #400000;
+}
+.main{
+	position:relative;
+	top: 20px;
+	left:19px;
+	width: 1250px;
+	height: auto;
+	border-style:dotted;
+	border-color:#999999;
+}
+.hello{
+	font-size:20px;
+}
+#hello1
+{
+	border-style:dotted;
+	border-color:#999999;
+}
+.last{
+	position:absolute;
+	left: 2px;
+	margin-top:100px;
+	margin-bottom:0px;
+	height: 59px;
+	width: 1335px;
+	background-color: #201313;
+}
+.yo
+{
+	position:absolute;
+	left: 30px;
+	top: 1176px;
+	width: 1238px;
+	height: 176px;
+	font-size:24px;
+}
+.fuzzy{
+	position:relative;
+	background-color:#00CCFF;
+	font-size:24px;
+	font-family:"Cooper Black";
+	border:solid;
+}
+.fuzzy1{
+	position:absolute;
+	background-color:#00CCFF;
+	font-size:24px;
+	font-family:"Cooper Black";
+	border:solid;
+	left: 1086px;
+	top: 1803px;
+	width: 192px;
+	height: 65px;
+}
+#fussy
+{
+	padding-bottom:350px;
+	position:relative;
+}
+.insider
+{
+	position:absolute;
+	left: 36px;
+	top: 1114px;
+	width: 412px;
+	height: 605px;
+}
+#shop {
+	position:absolute;
+}
+	.tfbutton1 {
+		margin: 0;
+		padding-top:15px ;
+		padding-bottom:0px;
+		padding-left:0px;
+		padding-right:0px;
+		font-family: verdana;
+		font-size:25px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3;
+		background: #0099ff;
+		margin-top:20px;
+		float:left;
+		margin-left:900px;
+		position:absolute;
+		margin-top:30px;
+		height : 45px;
+		width : 220px;
+		
+	}
+	.tfbutton1:hover {
+		text-decoration: none;
+		background: white;
+		color:#201313;
+		-webkit-transition: 0.4s ease-in-out;
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton1::-moz-focus-inner {
+	  border: 0;
+	}
+.tfbutton2 {
+		margin: 0;
+		padding-top:15px ;
+		padding-bottom:0px;
+		padding-left:0px;
+		padding-right:0px;
+		font-family: verdana;
+		font-size:25px;
+		outline: none;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+		border: solid 1px #0076a3;
+		background: #0099ff;
+		margin-top:20px;
+		float:left;
+		margin-left:1150px;
+		position:absolute;
+		margin-top:30px;
+		height : 45px;
+		width : 150px;
+	}
+	.tfbutton2:hover {
+		text-decoration: none;
+		background: white;
+		color:#201313;
+		-webkit-transition: 0.4s ease-in-out;
+	}
+	/* Fixes submit button height problem in Firefox */
+	.tfbutton2::-moz-focus-inner {
+	  border: 0;
+	}
+	#phoneimage {
+	text-align:center;
+	}

@@ -1,0 +1,73 @@
+table.bit
+{
+	position:absolute;
+	font-family:"Cooper Black";
+	font-size:20px;
+	top:181px;
+	left:274px;
+	right:700px;
+	width: 1083px;
+	height: 40px;
+	background:#000099;
+	color:#CCCCCC;
+}
+.tens
+{
+	position:absolute;
+	top:31px;
+	left:386px;
+	background: #FFFFFF;
+	width: 543px;
+	height: 125px;
+}
+.us
+{
+	position:absolute;
+	top:41px;
+	left:295px;
+	width:712px;
+	height:261px;
+	border:#000033;
+}
+.weall
+{
+	position:absolute;
+	font-family:"Cooper Black";
+	font-size: 42px;
+	top:230px;
+	left:544px;
+}
+.kelo
+{
+	position:absolute;
+	top:299px;
+	left:297px;
+	height: 285px;
+	width: 710px;
+}
+.new1
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size:24px;
+	color: #000000;
+}
+#happyhover2:hover
+{
+	background-color: #9966CC;
+	cursor:pointer;
+	-webkit-transition:0.4s ease-in-out;
+}
+.side
+{
+	position:relative;
+	overflow:hidden;
+	top:0px;
+	left:0px;
+}
+	.fishes
+	{
+		position: relative;
+		top: 0;
+		left: 0;
+		overflow:hidden;
+	}
